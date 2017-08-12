@@ -21,6 +21,11 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    changes in one branch are include in current.
+    merge has two parents.
+    commits are no longer sequence, ie. previous one may not be paretn, use --graph.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+   its faster, less pro to errors most of time there no conflicts. 
+   when conflict need humans to resolve 
